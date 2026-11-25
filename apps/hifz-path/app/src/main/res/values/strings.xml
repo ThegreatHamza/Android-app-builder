@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hifz Path</string>
+
+    <!-- Navigation -->
+    <string name="tab_today">Today</string>
+    <string name="tab_mushaf">Mushaf</string>
+    <string name="tab_surahs">Surahs</string>
+    <string name="tab_progress">Progress</string>
+    <string name="settings">Settings</string>
+    <string name="students">Students</string>
+    <string name="back">Back</string>
+    <string name="title_with_student">%1$s · %2$s</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="clear">Clear</string>
+    <string name="replace">Replace</string>
+    <string name="open">Open</string>
+    <string name="done">Done</string>
+    <string name="undo">Undo</string>
+    <string name="active">Active</string>
+    <string name="no_results">No surah matches your search.</string>
+
+    <!-- Setup -->
+    <string name="setup_welcome">Assalamu alaikum</string>
+    <string name="setup_intro">Hifz Path plans your daily Quran memorization: a new lesson (sabaq), revision of recent pages (sabqi) and rotating revision of older pages (manzil). Everything stays on your phone.</string>
+    <string name="student_name">Student name</string>
+    <string name="student_name_hint">e.g. Abdullah</string>
+    <string name="error_name_required">Please enter a name.</string>
+    <string name="setup_start">Start my plan</string>
+    <string name="setup_tip">Tip: already memorized some surahs? Mark them in the Surahs or Mushaf tab after you start.</string>
+
+    <!-- Plan settings -->
+    <string name="plan_direction">Where do you start?</string>
+    <string name="direction_start">From Al-Fatiha (page 1 onwards)</string>
+    <string name="direction_end">From An-Nas (Juz Amma first)</string>
+    <string name="plan_daily_new">New memorization per day</string>
+    <string name="plan_cycle">Revision cycle</string>
+    <string name="plan_cycle_help">Every older page you know is revised once in this many days.</string>
+    <string name="days_n">%1$d days</string>
+    <string name="amount_quarter">¼ page</string>
+    <string name="amount_half">½ page</string>
+    <string name="amount_three_quarters">¾ page</string>
+    <string name="amount_one">1 page</string>
+    <string name="amount_two">2 pages</string>
+
+    <!-- Today -->
+    <string name="today_progress">Today: %1$d of %2$d done</string>
+    <string name="memorized_of_total">%1$d / %2$d pages</string>
+    <plurals name="streak_days">
+        <item quantity="one">%d day streak</item>
+        <item quantity="other">%d day streak</item>
+    </plurals>
+    <string name="part_sabaq">New lesson (Sabaq)</string>
+    <string name="part_sabaq_help">Target: %1$s a day. Mark the page when you can recite it fully.</string>
+    <string name="part_sabqi">Recent revision (Sabqi)</string>
+    <string name="part_sabqi_help">Pages memorized in the last %1$d days, revised daily.</string>
+    <string name="part_manzil">Old revision (Manzil)</string>
+    <string name="part_manzil_help">Older pages on a %1$d-day cycle. Weak pages come back sooner.</string>
+    <string name="empty_sabqi">No recent pages yet. New pages you memorize will appear here for a week.</string>
+    <string name="empty_manzil">Nothing to revise yet. Pages you know will rotate here.</string>
+    <string name="quran_complete">Ma sha Allah! The whole Quran is marked as memorized.</string>
+    <string name="action_memorized">Memorized</string>
+    <string name="action_revised">Revised</string>
+    <string name="rate_question">How well did you recite it?</string>
+    <string name="page_n">Page %1$d</string>
+    <string name="page_subtitle">%1$s · Juz %2$d</string>
+
+    <!-- Status & strength -->
+    <string name="status">Status</string>
+    <string name="status_not_started">Not started</string>
+    <string name="status_learning">Learning</string>
+    <string name="status_memorized">Memorized</string>
+    <string name="strength">Strength</string>
+    <string name="strength_weak">Weak</string>
+    <string name="strength_good">Good</string>
+    <string name="strength_strong">Strong</string>
+    <string name="review_count">Revised %1$d times</string>
+    <string name="log_revision_now">Log a revision now</string>
+
+    <!-- Mushaf -->
+    <string name="juz_n">Juz %1$d</string>
+    <string name="juz_summary">Juz %1$d: %2$d of %3$d pages memorized</string>
+    <string name="juz_actions">Juz actions</string>
+    <string name="mark_juz_known">Mark whole juz as memorized</string>
+    <string name="clear_juz">Clear juz progress</string>
+    <string name="confirm_mark_known_juz">Mark every page of Juz %1$d as already memorized? These pages will join your revision cycle.</string>
+    <string name="confirm_clear_juz">Clear all progress for Juz %1$d? Revision history is kept.</string>
+
+    <!-- Surahs -->
+    <string name="search_surah">Search surah by name or number</string>
+    <string name="surah_meta">%1$s · %2$d ayahs · pages %3$d–%4$d</string>
+    <string name="surah_title">%1$d. %2$s</string>
+    <string name="surah_page_note">Progress is tracked by mushaf page, so pages shared with neighbouring surahs are included.</string>
+    <string name="mark_surah_known">Mark as already memorized</string>
+    <string name="mark_surah_learning">Mark as learning</string>
+    <string name="clear_surah">Clear progress</string>
+
+    <!-- Progress -->
+    <string name="stat_memorized">Pages</string>
+    <string name="stat_percent">Of Quran</string>
+    <string name="percent_value">%1$.1f%%</string>
+    <string name="stat_streak">Streak</string>
+    <string name="stat_juz">Juz done</string>
+    <string name="stat_surahs">Surahs done</string>
+    <string name="stat_weak">Weak pages</string>
+    <string name="estimate_title">Estimated completion</string>
+    <string name="estimate_unknown">Memorize a few pages to see when you could finish at your current pace.</string>
+    <string name="estimate_value">You memorized %1$d pages in the last 30 days. At this pace you could finish in %2$s (around %3$s). This is an estimate only.</string>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="last_7_days">Last 7 days</string>
+    <string name="chart_description">Pages memorized or revised per day, oldest to today: %1$s</string>
+    <string name="activity_12_weeks">12-week activity</string>
+    <string name="pro_heatmap_locked">See your 12-week activity calendar with Pro.</string>
+    <string name="juz_progress">Juz progress</string>
+
+    <!-- Students -->
+    <string name="students_help">Tap a student to switch. Parents and teachers can track several students with Pro.</string>
+    <string name="add_student">Add student</string>
+    <string name="confirm_delete_student">Delete %1$s and all their progress? This cannot be undone.</string>
+    <string name="pro_students_locked">The free version has one student. Unlock Pro to track your whole family or class.</string>
+
+    <!-- Settings -->
+    <string name="pro_title">Hifz Path Pro</string>
+    <string name="pro_benefits">One-time purchase, no subscription:\n• Unlimited student profiles\n• 12-week activity calendar\n• Supports future development</string>
+    <string name="pro_active">Pro is unlocked. Jazak Allahu khairan!</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="buy_pro_price">Unlock Pro · %1$s</string>
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="settings_plan">Plan for %1$s</string>
+    <string name="save_plan">Save plan</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_data">Backup</string>
+    <string name="backup_help">Your data never leaves your phone. Export a backup file to keep it safe or move it to a new phone.</string>
+    <string name="export_backup">Export</string>
+    <string name="import_backup">Import</string>
+    <string name="confirm_import">Importing replaces all students and progress on this phone with the backup. Continue?</string>
+    <string name="settings_about">About</string>
+    <string name="rate_app">Rate Hifz Path</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="version">Version</string>
+    <string name="data_credit">Page and surah data: quran-meta (MIT licence), Madani 604-page mushaf.</string>
+
+    <!-- Messages -->
+    <string name="msg_plan_saved">Plan saved</string>
+    <string name="msg_page_memorized">Page %1$d memorized. Barak Allahu feek!</string>
+    <string name="msg_marked_known">Pages marked as memorized</string>
+    <string name="msg_export_ok">Backup exported</string>
+    <string name="msg_export_failed">Could not export the backup</string>
+    <string name="msg_import_ok">Backup restored (%1$d students)</string>
+    <string name="msg_import_invalid">This file is not a Hifz Path backup</string>
+    <string name="msg_import_failed">Could not read the backup file</string>
+    <string name="msg_restore_checked">Checked Google Play for purchases</string>
+    <string name="msg_billing_unavailable">Purchases are not available right now. Install the app from Google Play and try again.</string>
+</resources>

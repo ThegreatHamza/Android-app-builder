@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Site Calc</string>
+
+    <!-- Navigation -->
+    <string name="tab_calculators">Calculators</string>
+    <string name="tab_projects">Projects</string>
+    <string name="settings">Settings</string>
+    <string name="project">Project</string>
+    <string name="back">Back</string>
+    <string name="more">More options</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="replace">Replace</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+
+    <!-- Home -->
+    <string name="home_intro">Metric material estimates for the site. Works offline, no account needed.</string>
+    <string name="calc_concrete">Concrete</string>
+    <string name="calc_concrete_desc">Slabs, footings and columns: volume, cement, sand, gravel, water.</string>
+    <string name="calc_blocks">Blocks &amp; bricks</string>
+    <string name="calc_blocks_desc">Wall blocks or bricks plus mortar cement and sand.</string>
+    <string name="calc_plaster">Plaster</string>
+    <string name="calc_plaster_desc">Cement and sand for wall and ceiling plaster.</string>
+    <string name="calc_tiles">Tiles</string>
+    <string name="calc_tiles_desc">Number of tiles and boxes for a floor.</string>
+    <string name="calc_paint">Paint</string>
+    <string name="calc_paint_desc">Litres and cans of paint for walls.</string>
+    <string name="calc_rebar">Rebar steel</string>
+    <string name="calc_rebar_desc">Steel weight and number of stock bars.</string>
+    <string name="calc_excavation">Excavation</string>
+    <string name="calc_excavation_desc">Dig volume, loose soil and truck loads.</string>
+    <string name="calc_roofing">Roofing sheets</string>
+    <string name="calc_roofing_desc">Number of iron sheets for a mono or gable roof.</string>
+
+    <!-- Units (shown after numbers) -->
+    <string name="unit_m">m</string>
+    <string name="unit_mm">mm</string>
+    <string name="unit_m2">m²</string>
+    <string name="unit_m3">m³</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_bags">bags</string>
+    <string name="unit_pcs">pcs</string>
+    <string name="unit_litres">L</string>
+    <string name="unit_boxes">boxes</string>
+    <string name="unit_cans">cans</string>
+    <string name="unit_trucks">trucks</string>
+    <string name="unit_sheets">sheets</string>
+    <string name="unit_bars">bars</string>
+    <string name="unit_count">×</string>
+    <string name="unit_m2_per_l">m²/L</string>
+    <string name="unit_none" translatable="false"></string>
+
+    <!-- Options -->
+    <string name="o_shape">Shape</string>
+    <string name="shape_slab">Slab / footing</string>
+    <string name="shape_rect_column">Square column</string>
+    <string name="shape_round_column">Round column</string>
+    <string name="o_mix">Concrete mix</string>
+    <string name="mix_c20">1:1.5:3 (C20)</string>
+    <string name="mix_c15">1:2:4 (C15)</string>
+    <string name="mix_c10">1:3:6 (C10)</string>
+    <string name="o_mortar">Mortar mix (cement : sand)</string>
+    <string name="mix_1_4">1:4</string>
+    <string name="mix_1_5">1:5</string>
+    <string name="mix_1_6">1:6</string>
+    <string name="o_coats">Coats</string>
+    <string name="coats_1">1 coat</string>
+    <string name="coats_2">2 coats</string>
+    <string name="coats_3">3 coats</string>
+    <string name="o_bar_diameter">Bar diameter</string>
+    <string name="bar_y">Ø%1$s mm</string>
+    <string name="o_roof_sides">Roof type</string>
+    <string name="roof_mono">Mono-pitch (1 side)</string>
+    <string name="roof_gable">Gable (2 sides)</string>
+
+    <!-- Input fields -->
+    <string name="f_length">Length</string>
+    <string name="f_width">Width</string>
+    <string name="f_width_m">Width</string>
+    <string name="f_depth">Depth</string>
+    <string name="f_depth_m">Depth</string>
+    <string name="f_height">Height</string>
+    <string name="f_thickness">Thickness</string>
+    <string name="f_diameter">Diameter</string>
+    <string name="f_count">Number of columns</string>
+    <string name="f_waste">Waste allowance</string>
+    <string name="f_wall_length">Wall length (total)</string>
+    <string name="f_wall_height">Wall height</string>
+    <string name="f_openings">Doors &amp; windows area</string>
+    <string name="f_block_length">Block length</string>
+    <string name="f_block_height">Block height</string>
+    <string name="f_block_thickness">Block thickness</string>
+    <string name="f_joint">Mortar joint</string>
+    <string name="f_area">Area to plaster</string>
+    <string name="f_room_length">Room length</string>
+    <string name="f_room_width">Room width</string>
+    <string name="f_tile_length">Tile length</string>
+    <string name="f_tile_width">Tile width</string>
+    <string name="f_tiles_per_box">Tiles per box</string>
+    <string name="f_wall_area">Wall area</string>
+    <string name="f_coverage">Paint coverage</string>
+    <string name="f_can_size">Can size</string>
+    <string name="f_bar_length">Length of each bar</string>
+    <string name="f_bar_count">Number of bars</string>
+    <string name="f_stock_length">Stock bar length</string>
+    <string name="f_swell">Soil swell factor</string>
+    <string name="f_truck">Truck capacity</string>
+    <string name="f_roof_length">Roof length (along ridge)</string>
+    <string name="f_rafter">Slope length (eave to ridge)</string>
+    <string name="f_sheet_cover">Sheet cover width</string>
+    <string name="f_sheet_length">Sheet length</string>
+    <string name="f_end_lap">End overlap</string>
+
+    <!-- Results -->
+    <string name="r_volume">Concrete volume</string>
+    <string name="r_cement">Cement</string>
+    <string name="r_sand">Sand</string>
+    <string name="r_aggregate">Gravel / aggregate</string>
+    <string name="r_water">Water (approx.)</string>
+    <string name="r_wall_area">Net wall area</string>
+    <string name="r_blocks">Blocks / bricks</string>
+    <string name="r_mortar">Wet mortar</string>
+    <string name="r_plaster_volume">Wet plaster</string>
+    <string name="r_floor_area">Floor area</string>
+    <string name="r_tiles">Tiles</string>
+    <string name="r_tile_boxes">Boxes</string>
+    <string name="r_paint_area">Paintable area</string>
+    <string name="r_paint">Paint</string>
+    <string name="r_cans">Cans</string>
+    <string name="r_total_length">Total bar length</string>
+    <string name="r_steel_weight">Steel weight</string>
+    <string name="r_stock_bars">Stock bars to buy</string>
+    <string name="r_bank_volume">Excavation (in place)</string>
+    <string name="r_loose_volume">Loose soil to remove</string>
+    <string name="r_trucks">Truck loads</string>
+    <string name="r_roof_area">Roof area</string>
+    <string name="r_sheets_across">Sheets per row</string>
+    <string name="r_sheet_rows">Rows per side</string>
+    <string name="r_sheets">Sheets total</string>
+    <string name="summary_line">%1$s: %2$s %3$s</string>
+
+    <!-- Materials / prices -->
+    <string name="mat_cement_bag">cement bag</string>
+    <string name="mat_sand">m³ of sand</string>
+    <string name="mat_aggregate">m³ of gravel</string>
+    <string name="mat_block">block</string>
+    <string name="mat_tile_box">box of tiles</string>
+    <string name="mat_paint_can">can of paint</string>
+    <string name="mat_steel">kg of steel</string>
+    <string name="mat_truck">truck load</string>
+    <string name="mat_sheet">roofing sheet</string>
+
+    <!-- Calculator screen -->
+    <string name="dimensions">Dimensions</string>
+    <string name="error_invalid_number">Enter a valid number</string>
+    <string name="prices_optional">Prices (optional)</string>
+    <string name="prices_help">Enter your local prices once. They are remembered and used to estimate costs.</string>
+    <string name="price_per">Price per %1$s</string>
+    <string name="results">Results</string>
+    <string name="results_empty">Enter the dimensions to see the materials you need.</string>
+    <string name="results_invalid">Check the highlighted value.</string>
+    <string name="estimated_cost">Estimated cost</string>
+    <string name="results_disclaimer">Estimates only. Quantities depend on site conditions and workmanship; always confirm with your engineer or supplier.</string>
+    <string name="save_to_project">Save to project</string>
+    <string name="update_in_project">Update in project</string>
+    <string name="item_title">Name (e.g. Ground floor slab)</string>
+    <string name="choose_project">Project</string>
+    <string name="new_project">New project</string>
+    <string name="project_name">Project name</string>
+    <string name="project_name_hint">e.g. Ahmed\'s house</string>
+
+    <!-- Projects -->
+    <string name="projects_empty_title">No projects yet</string>
+    <string name="projects_empty_body">Save a calculation to a project to build a full material list and cost estimate.</string>
+    <plurals name="items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="total_cost">Total estimated cost</string>
+    <string name="no_prices">No prices entered</string>
+    <string name="project_empty">This project is empty. Open a calculator and save a result here.</string>
+    <string name="export_csv">CSV</string>
+    <string name="export_pdf">PDF</string>
+    <string name="delete_project">Delete project</string>
+    <string name="confirm_delete_project">Delete \"%1$s\" and all its calculations?</string>
+    <string name="confirm_delete_item">Delete this calculation from the project?</string>
+    <string name="report_subtitle">%1$s estimate · %2$s</string>
+    <string name="report_col_item">Item</string>
+    <string name="report_col_calculator">Calculator</string>
+    <string name="report_col_details">Quantities</string>
+    <string name="report_col_cost">Cost</string>
+    <string name="report_disclaimer">Material estimates only. Quantities and prices may vary; confirm with your engineer and supplier before ordering.</string>
+
+    <!-- Settings -->
+    <string name="pro_title">Site Calc Pro</string>
+    <string name="pro_benefits">One-time purchase, no subscription:\n• No ads\n• Unlimited projects\n• PDF reports for clients</string>
+    <string name="pro_active">Pro is unlocked. Thank you!</string>
+    <string name="go_pro">Go Pro</string>
+    <string name="remove_ads_go_pro">Remove ads · Go Pro</string>
+    <string name="buy_pro_price">Unlock Pro · %1$s</string>
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="pro_projects_locked">The free version holds 2 projects. Unlock Pro in Settings for unlimited projects.</string>
+    <string name="pro_pdf_locked">PDF reports are part of Pro. CSV export and sharing are free.</string>
+    <string name="settings_units">Prices &amp; materials</string>
+    <string name="currency">Currency symbol</string>
+    <string name="currency_hint">e.g. KES, $, DJF</string>
+    <string name="cement_bag_size">Cement bag size</string>
+    <string name="kg_value">%1$s kg</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_data">Backup</string>
+    <string name="backup_help">Projects are stored only on this phone. Export a backup file to keep them safe or move to a new phone.</string>
+    <string name="export_backup">Export</string>
+    <string name="import_backup">Import</string>
+    <string name="confirm_import">Importing replaces all projects on this phone with the backup. Continue?</string>
+    <string name="settings_about">About</string>
+    <string name="ad_privacy">Ad privacy choices</string>
+    <string name="rate_app">Rate Site Calc</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="version">Version</string>
+
+    <!-- Messages -->
+    <string name="msg_project_deleted">Project deleted</string>
+    <string name="msg_export_ok">File saved</string>
+    <string name="msg_export_failed">Could not save the file</string>
+    <string name="msg_import_ok">Backup restored (%1$d projects)</string>
+    <string name="msg_import_invalid">This file is not a Site Calc backup</string>
+    <string name="msg_import_failed">Could not read the backup file</string>
+    <string name="msg_restore_checked">Checked Google Play for purchases</string>
+    <string name="msg_billing_unavailable">Purchases are not available right now. Install the app from Google Play and try again.</string>
+</resources>
